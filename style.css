@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+body {
+    overflow-x: hidden;
+    background-color: wheat;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#grid{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:  .3fr 1fr;
+    grid-gap: 2vw;
+    position: relative;
+    top: 40px;
+    left: 335px;
+}
+
+#grid > div{
+    width: 220px;
+    height: 30px;
+    color: #fff;
+    font-style: 5vw;
+    text-align: center;
+    padding: 2em;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#grid > div:hover {
+    background: transparent;
+    color: #191919;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid grey;
+}
+
+.artime {
+    background: linear-gradient(to left, purple, aqua);
+}
+
+.airtime-cash {
+    background: linear-gradient(to right, green, grey);
+}
+
+.data {
+    background: linear-gradient(to left, rgb(79, 79, 118), rgb(27, 99, 128));
+}
+
+.recharge {
+    background: linear-gradient(to right, rgba(142, 20, 142, 0.819), rgb(5, 5, 57));
+}
+
+.cable {
+    background: linear-gradient(to left, rgb(80, 154, 80), rgb(11, 70, 11));
+}
+
+.bills {
+    background: linear-gradient(to right, rgb(167, 38, 15), rgb(202, 58, 87));
+}
+
+.education {
+    background: linear-gradient(to left, rgb(232, 232, 39), rgb(232, 173, 23));
+}
+
+.bet {
+    background: linear-gradient(to right, rgb(28, 227, 227), rgb(132, 180, 164));
+}
